@@ -1,1 +1,1 @@
-# bimeta-corp.github.com
+# bimeta-corp.github.io
