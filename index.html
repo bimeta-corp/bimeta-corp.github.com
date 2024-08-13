@@ -17,49 +17,51 @@
 </div>
 <br>
 <div class="container">
-    <div class="row fw-bold bg-white-50">
-        <div class="col-2 border border-right-0 border-dark">Group</div>
-        <div class="col border border-start-0 border-dark">Name</div>
-        <div class="col-3 border border-start-0 border-dark">Local</div>
-        <div class="col-3 border border-start-0 border-dark">Product</div>
-    </div>
-    <div class="row">
-        <div class="col-2 border border-top-0 border-right-0 border-dark">base</div>
-        <div class="col border border-top-0 border-start-0 border-dark text-break">com.bimeta.base.files</div>
-        <div class="col-3 border border-top-0 border-start-0 border-dark text-break"><a href="http://localhost:8082" target="_blank">http://localhost:8082</a></div>
-        <div class="col-3 border border-top-0 border-start-0 border-dark text-break"><a href="https://files.bimeta.co.kr" target="_blank">https://files.bimeta.co.kr</a></div>
-    </div>
-    <div class="row">
-        <div class="col-2 border border-top-0 border-right-0 border-dark">base</div>
-        <div class="col border border-top-0 border-start-0 border-dark text-break">com.bimeta.base.oauth2</div>
-        <div class="col-3 border border-top-0 border-start-0 border-dark text-break"><a href="http://localhost:8081" target="_blank">http://localhost:8081</a></div>
-        <div class="col-3 border border-top-0 border-start-0 border-dark text-break"><a href="https://oauth2.bimeta.co.kr" target="_blank">https://oauth2.bimeta.co.kr</a></div>
-    </div>
-    <div class="row">
-        <div class="col-2 border border-top-0 border-right-0 border-dark">chat</div>
-        <div class="col border border-top-0 border-start-0 border-dark text-break">com.bimeta.chat.api</div>
-        <div class="col-3 border border-top-0 border-start-0 border-dark text-break"><a href="http://localhost:9091" target="_blank">http://localhost:9091</a></div>
-        <div class="col-3 border border-top-0 border-start-0 border-dark text-break"><a href="" target="_blank"></a></div>
-    </div>
-    <div class="row">
-        <div class="col-2 border border-top-0 border-right-0 border-dark">chat</div>
-        <div class="col border border-top-0 border-start-0 border-dark text-break">com.bimeta.chat.web</div>
-        <div class="col-3 border border-top-0 border-start-0 border-dark text-break"><a href="http://localhost:9092" target="_blank">http://localhost:9092</a></div>
-        <div class="col-3 border border-top-0 border-start-0 border-dark text-break"><a href="" target="_blank"></a></div>
-    </div>
-    <div class="row">
-        <div class="col-2 border border-top-0 border-right-0 border-dark">soritalk</div>
-        <div class="col border border-top-0 border-start-0 border-dark text-break">com.bimeta.soritalk.api.base</div>
-        <div class="col-3 border border-top-0 border-start-0 border-dark text-break"><a href="http://localhost:11001" target="_blank">http://localhost:11001</a></div>
-        <div class="col-3 border border-top-0 border-start-0 border-dark text-break"><a href="" target="_blank"></a></div>
-    </div>
-    <div class="row">
-        <div class="col-2 border border-top-0 border-right-0 border-dark">soritalk</div>
-        <div class="col border border-top-0 border-start-0 border-dark text-break">com.bimeta.soritalk.api.organization</div>
-        <div class="col-3 border border-top-0 border-start-0 border-dark text-break"><a href="http://localhost:11002" target="_blank">http://localhost:11002</a></div>
-        <div class="col-3 border border-top-0 border-start-0 border-dark text-break"><a href="" target="_blank"></a></div>
-    </div>
-
+    <table class="table table-bordered">
+        <thead>
+            <tr>
+                <th>Group</th>
+                <th>Name</th>
+                <th>Local</th>
+                <th>Product</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">base</td>
+                <td>com.bimeta.base.oauth2</td>
+                <td><a href="http://localhost:8081" target="_blank">http://localhost:8081</a></td>
+                <td><a href="https://oauth2.bimeta.co.kr" target="_blank">https://oauth2.bimeta.co.kr</a></td>
+            </tr>
+            <tr>
+                <td>com.bimeta.base.files</td>
+                <td><a href="http://localhost:8082" target="_blank">http://localhost:8082</a></td>
+                <td><a href="https://files.bimeta.co.kr" target="_blank">https://files.bimeta.co.kr</a></td>
+            </tr>
+            <tr>
+                <td rowspan="2">chat</td>
+                <td>com.bimeta.chat.api</td>
+                <td><a href="http://localhost:9091" target="_blank">http://localhost:9091</a></td>
+                <td><a href="" target="_blank"></a></td>
+            </tr>
+            <tr>
+                <td>com.bimeta.chat.web</td>
+                <td><a href="http://localhost:9092" target="_blank">http://localhost:9092</a></td>
+                <td><a href="" target="_blank"></a></td>
+            </tr>
+            <tr>
+                <td rowspan="2">soritalk</td>
+                <td>com.bimeta.soritalk.api.base</td>
+                <td><a href="http://localhost:11001" target="_blank">http://localhost:11001</a></td>
+                <td><a href="" target="_blank"></a></td>
+            </tr>
+            <tr>
+                <td>com.bimeta.soritalk.api.organization</td>
+                <td><a href="http://localhost:11002" target="_blank">http://localhost:11002</a></td>
+                <td><a href="" target="_blank"></a></td>
+            </tr>
+        </tbody>
+    </table>
 </div>
 </body>
 </html>
